@@ -12,7 +12,7 @@ This tutorial experiments with Network Security Groups & uses Wireshark to obser
 
 - ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
-<h2>Environments and Technologies Used</h2>
+<h2>Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
