@@ -27,10 +27,11 @@ This tutorial experiments with Network Security Groups & uses Wireshark to obser
 
 <h2>Overview of Main Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Make a resource group.
+- Step 2: Make a Windows 10 virtual machine & a Linux virtual machine.
+- Step 3: Install Wireshark onto the Windows 10 virtual machine.
+- Step 4: Conduct a Network Security Group ping test between both virtual machines.
+- Step 5: Execute and Observe internet protocol traffic in the virtual machines.
 
 <h2>Actions and Observations</h2>
 
