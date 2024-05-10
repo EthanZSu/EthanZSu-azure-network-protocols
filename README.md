@@ -5,7 +5,7 @@
 </p>
 
 <h1>Network Security Groups and Observing Network Protocols Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+This tutorial experiments with Network Security Groups & uses Wireshark to observe network traffic between Azure Virtual Machines. <br />
 
 
 <h2>Video Demonstration</h2>
