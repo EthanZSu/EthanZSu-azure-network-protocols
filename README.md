@@ -84,7 +84,7 @@ Set up administrator account info for the VM: the username & password.
   <br />
 Public inbound ports must allow selected ports, and allow RDP 3389 (for remote desktop to the VM).
   <br />
-Scroll down & confirm you have the appropriate WIndows 10/11 license.
+Scroll down & confirm you have the appropriate Windows 10/11 license.
   
 </p>
 <br />
