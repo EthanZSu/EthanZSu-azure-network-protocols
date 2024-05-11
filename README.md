@@ -5,7 +5,7 @@
 </p>
 
 <h1>Network Security Groups and Observing Network Protocols Between Azure Virtual Machines</h1>
-This tutorial experiments with Network Security Groups & uses Wireshark to observe network traffic between Azure Virtual Machines. <br />
+This tutorial experiments with Network Security Groups & uses Wireshark to observe network traffic between Azure Virtual Machines (VMs). <br />
 
 
 <h2>???Video Demonstration</h2>
@@ -62,10 +62,46 @@ Then create the resource group.
 In the top search bar search: virtual machines, then click "create", then "Azure Virtual Machine".
   <br />
   <br />
-For the 1st virtual machine: Select a subsciption account, the resource group just made, & the geographic region you want the virtual machine in.
+For the 1st virtual machine: Select a subsciption account, the resource group just made, & the geographic region you want the VM in.
   <br />
-Name this 1st 
+Name this 1st VM.
+  <br />
+The above redundancy & security settings will suffice.
+  <br />
+The image (VM's operating system) will be Windows 10 Pro, ver. 22H2
+  <br />
+VM architecture x64 will suffice.
+</p>
+<br />
 
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/29c94b50-3323-4cd5-8cb1-0155d9b5374a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Select size "2 vcpus" (2 virtual CPU's).
+  <br />
+Set up administrator account info for the VM: the username & password.
+  <br />
+Public inbound ports must allow selected ports, and allow RDP 3389 (for remote desktop to the VM).
+  <br />
+Scroll down & confirm you have the appropriate WIndows 10/11 license.
+  
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
