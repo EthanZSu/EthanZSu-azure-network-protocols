@@ -36,10 +36,10 @@ This tutorial experiments with Network Security Groups & uses Wireshark to obser
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/6c31fed9-4ab9-4795-816f-13edd6838d8e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First, a new resource group must be made where the storage account will be placed  in.
+First, a new resource group must be made where the virtual machines will be placed  in.
   <br />
 In the top search bar search: resource group and then in top left click "create".
   <br />
@@ -49,6 +49,9 @@ Name the new resource group.
 Also select which subscription account to place the resource group under.
   <br />
 And pick which geographic region you want the resource group in.
+  <br />
+  <br />
+Then create the resource group.
 </p>
 <br />
 
