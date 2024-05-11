@@ -39,7 +39,16 @@ This tutorial experiments with Network Security Groups & uses Wireshark to obser
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First, a new resource group must be made where the storage account will be placed  in.
+  <br />
+In the top search bar search: resource group and then in top left click "create".
+  <br />
+  <br />
+Name the new resource group.
+  <br />
+Also select which subscription account to place the resource group under.
+  <br />
+And pick which geographic region you want the resource group in.
 </p>
 <br />
 
