@@ -1,7 +1,7 @@
 # EthanZSu-azure-network-protocols
 
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+<img src="https://i.imgur.com/7Go3II0.png" alt="Traffic Examination"/>
 </p>
 
 <h1>Network Security Groups and Observing Network Protocols Between Azure Virtual Machines</h1>
