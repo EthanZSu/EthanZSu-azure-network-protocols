@@ -93,6 +93,9 @@ Scroll down & confirm you have the appropriate Windows 10/11 license.
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/05628e00-4509-44f8-b883-f91b1bb2397c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+At the bottom click Next:Disks, then at the bottom again, click Next:Networking.
+  <br />
+  <br />
 For this 1st VM, the virtual network, subnet, & public IP will be automatically made.
   <br />
 For the NIC network security group select "basic".
@@ -100,6 +103,7 @@ For the NIC network security group select "basic".
 Public inbound ports must allow selected ports, and allow RDP 3389 (for remote desktop to the VM).
   <br />
 Scrolling down, enable accelerated networking & select no load balancing.
+  <br />
   <br />
 Finally, Create this 1st VM.
 </p>
