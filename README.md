@@ -119,15 +119,40 @@ You must wait ~5 minutes before making the 2nd VM (so the 2nd VM can be placed i
   <br />
 In the top search bar search: virtual machines, then in top left click "create", then "Azure Virtual Machine".
   <br />
-For this 2st virtual machine: the subsciption account, resource group, & the geographic region should match the 1st VM's.
   <br />
-Name this 1st VM.
+For this 2nd virtual machine: the subsciption account, resource group, & the geographic region should match the 1st VM's.
+  <br />
+Name this 2st VM.
   <br />
 The above redundancy & security settings will suffice.
   <br />
-The image (VM's operating system) will be Windows 10 Pro, ver. 22H2
+The image (VM's operating system) will be Ubuntu Server 20.04
   <br />
 VM architecture x64 will suffice.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/e0193885-d8d3-4c77-82c5-de369e06e15a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Select size "2 vcpus" (2 virtual CPU's).
+  <br />
+Select authentication type: password.
+  <br />
+Set up administrator account info for the VM: the username & password.
+  <br />
+Public inbound ports must allow selected ports, and allow SSH 22 (for typing a remote command line to the VM).
+
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
