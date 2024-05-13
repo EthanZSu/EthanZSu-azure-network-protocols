@@ -106,6 +106,8 @@ Scrolling down, enable accelerated networking & select no load balancing.
   <br />
   <br />
 Finally, Create this 1st VM.
+  <br />
+Note that Azure may take 5 minutes to deploy the VM.
 </p>
 <br />
 
