@@ -112,10 +112,22 @@ Note that Azure may take 5 minutes to deploy the VM.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/fac7bc91-962a-4eb1-8841-48925ad1dd57" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+You must wait ~5 minutes before making the 2nd VM (so the 2nd VM can be placed in the same network as the 1st).
+  <br />
+In the top search bar search: virtual machines, then in top left click "create", then "Azure Virtual Machine".
+  <br />
+For this 2st virtual machine: the subsciption account, resource group, & the geographic region should match the 1st VM's.
+  <br />
+Name this 1st VM.
+  <br />
+The above redundancy & security settings will suffice.
+  <br />
+The image (VM's operating system) will be Windows 10 Pro, ver. 22H2
+  <br />
+VM architecture x64 will suffice.
 </p>
 <br />
 
