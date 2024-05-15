@@ -55,6 +55,8 @@ Then create the resource group.
 </p>
 <br />
 
+
+
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/8c1adcb6-557f-4cd4-8a9a-786b3b190ebb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -74,6 +76,8 @@ VM architecture x64 will suffice.
 </p>
 <br />
 
+
+
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/29c94b50-3323-4cd5-8cb1-0155d9b5374a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -85,9 +89,10 @@ Set up administrator account info for the VM: the username & password.
 Public inbound ports must allow selected ports, and allow RDP 3389 (for remote desktop to the VM).
   <br />
 Scroll down & confirm you have the appropriate Windows 10/11 license.
-  
 </p>
 <br />
+
+
 
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/05628e00-4509-44f8-b883-f91b1bb2397c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -111,6 +116,8 @@ Note that Azure may take 5 minutes to deploy the VM.
 </p>
 <br />
 
+
+
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/fac7bc91-962a-4eb1-8841-48925ad1dd57" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -132,6 +139,8 @@ VM architecture x64 will suffice.
 </p>
 <br />
 
+
+
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/e0193885-d8d3-4c77-82c5-de369e06e15a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -143,10 +152,10 @@ Select authentication type: password.
 Set up administrator account info for the VM: the username & password.
   <br />
 Public inbound ports must allow selected ports, and allow SSH 22 (for typing a remote command line to the VM).
-
-
 </p>
 <br />
+
+
 
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/9e8e0693-636f-420e-aaa5-267d2e9f8f39" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -171,8 +180,51 @@ Note that Azure may take 5 minutes to deploy the VM.
 <p>
   <br />
 
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/69629cdd-0cd4-41a3-bee8-35401aae7f1c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In your Windows computer bottom search bar type: Remote Desktop Connection.
+  <br />
+In the top center search bar search: Virtual Machines.
+  <br />
+Select the Windows VM.
+  <br />
+Copy the Public IP address on the right side into the Remote Desktop Connection & Connect.
+  <br />
+Enter the administrator account credentials for the VM: the username & password.
 </p>
 <br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/6badce6b-9266-484e-bcda-c518839ca625" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Click "yes" on the pop-up.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/e5f17491-cd13-4f1f-aae8-e10d06d17f00" height="100%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In the event you see this pop-up "mtsc.exe - Entry Point Not Found",
+  <br />
+Drag the pop-up to the top right corner & quickly exit it & the remote desktop window.
+  <br />
+If the pop-up is still there, simply click "OK".
+  <br />
+  <br />
+You must then repeat the steps from the previous 2 pictures to use Remote Dektop to access your Windows VM. 
+</p>
+<br />
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
