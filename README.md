@@ -210,7 +210,7 @@ Click "yes" on the pop-up.
 
 
 <p>
-<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/e5f17491-cd13-4f1f-aae8-e10d06d17f00" height="100%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/e5f17491-cd13-4f1f-aae8-e10d06d17f00" height="110%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In the event you see this pop-up "mtsc.exe - Entry Point Not Found",
