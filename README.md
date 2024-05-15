@@ -149,10 +149,26 @@ Public inbound ports must allow selected ports, and allow SSH 22 (for typing a r
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/9e8e0693-636f-420e-aaa5-267d2e9f8f39" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
 At the bottom click Next:Disks, then at the bottom again, click Next:Networking.
+  <br />
+  <br />
+For the 2nd VM, the virtual network must match the 1st VM's.
+  <br />
+The subnet, & public IP will be automatically made.
+  <br />
+For the NIC network security group select "basic".
+  <br />
+Public inbound ports must allow selected ports, and allow SSH 22 (for typing a remote command line to the VM).
+  <br />
+Scrolling down, enable accelerated networking & select no load balancing.
+  <br />
+  <br />
+Finally, Create this 2nd VM.
+  <br />
+Note that Azure may take 5 minutes to deploy the VM.
+<p>
   <br />
 
 </p>
