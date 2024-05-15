@@ -254,6 +254,74 @@ Decline all Windows offers to sign in & bring your data (because this project is
 
 
 <p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/48fdecf6-a66c-4371-aa08-832fb3aea4bc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open Microsoft Edge web browser.
+  <br />
+In the top search bar search "wireshark download" & go to the wireshark.org site.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/ee17dc94-c4e3-4261-8579-51b28a08098b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Download Windows x64 Installer from the latest Stable Release Version.
+  <br />
+Once it's finished downloading, open the file.
+  <br /> 
+Minimize the window.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/6ebd9af3-10ca-47f8-af9f-a6172dbcaf26" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Select "Next", "Noted", keep selecting "Next", then "Install"
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/4444c361-097e-4f3c-acb0-1da59e2b1281" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Select "I Agree", "Install", "Next", "Finish", "Next", "Finish".
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/e2c49c58-f3a8-4c54-8ffa-39e398584583" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Exit the web browser windows.
+  <br />
+In the bottom taskbar search "wireshark".
+</p>
+<br />
+
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
