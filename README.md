@@ -312,6 +312,54 @@ In the bottom taskbar search "wireshark".
 
 
 <p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/e02d8fc5-641e-45f5-80d1-85c31af3a71b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Click "Ethernet" & you will see the contant traffic between the Windows VM & the Internet.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/f9eda5ed-fbf0-4a78-a198-4e86a443b6f3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Wireshark, at the top filter for "icmp".
+  <br />
+  <br />
+Back to Azure, search for "virtual machines", select  your Linux VM, scroll down & copy the private IP on the right side.
+  <br />
+In Remote Desktop, from your taskbar open Windows Powershell.
+  <br />
+In Powershell type: ping, then paste your Linux VM private IP, & hit ENTER.
+  <br />
+  <br />
+WARNING: if the ping "times out",  you maybe pinged with the Linux Public IP instead of the Private IP.
+  <br />
+WARNING: if the ping doesn't work, you maybe didn't wait long enough before making the Linux VM 
+  (so the Linux VM may not be on the same virtual network as the Windows VM).
+  <br />
+  <br />
+In Wireshark, you see the traffic between both VM's as the Windows VM pings, & the Linux replies.
+  <br />
+In Powerhell, you see the Windows VM received 4 replies from the Linux VM.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
