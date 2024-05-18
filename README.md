@@ -346,6 +346,52 @@ In Wireshark, you see the traffic between both VM's as the Windows VM pings, & t
 In Powerhell, you see the Windows VM received 4 replies from the Linux VM.
 </p>
 <br />
+<br />
+<br />
+<br />
+SKIPPED NSG SECTION & LINUX COMMANDS
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/f2ff9ff6-e483-41e0-9fa6-e06567266215" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Wireshark, filter for dhcp traffic.
+  <br />
+  <br />
+Request a new IP address for the Windows VM: in Powershell type "ipconfig /renew", then hit "ENTER".
+  <br />
+In Wireshark you will see back and forth DHCP traffic between the Windows VM & the DHCP server.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/2fad6940-7fd3-415a-b0d6-35b436ebe0d9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Wireshark, filter for dns traffic.
+  <br />
+  <br />
+Ask the DNS server for Google's IP address: in Powershell, type "nslookup www.google.com", then hit "ENTER".
+  <br />
+  <br />
+In Powershell you will see several of Google's public IP addresses.
+  <br />
+In Wireshark, you will see much DNS traffic between the Windows VM & the DNS server.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/351f6e77-e6d3-4415-9c7c-2024914f2094" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Wireshark, filter for rdp traffic.
+  <br />
+In Wireshark, you should see an endless stream of rdp traffic (because the Windows VM is constantly using remote desktop protocol for as long as you are using it).
+<br />
 
 
 
