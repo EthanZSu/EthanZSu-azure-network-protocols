@@ -377,7 +377,19 @@ In Wireshark you will see back and forth SSH traffic between the Windows VM & th
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/3ee69d64-2206-4805-a73c-3aab4fbb0529" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Powershell you can input various Linux commands.
+  <br />
+Input, "id" to see the user id.
+  <br />
+Input, "uname -a" to see Linux OS data.
+  <br />
+Input, "pwd" to see the current working directory.
+  <br />
+  <br />
+In Wireshark, you will see more ssh traffic.
+  <br />
+  <br />
+End the ssh connection. In Powershell, type "exit", hit ENTER.
 </p>
 <br />
 
