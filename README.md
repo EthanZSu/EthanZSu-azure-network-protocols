@@ -351,6 +351,38 @@ In Powerhell, you see the Windows VM received 4 replies from the Linux VM.
 <br />
 SKIPPED NSG SECTION & LINUX COMMANDS
 
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/83e6dcc1-f4b1-412f-aae2-39bb1d4a76b9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Wireshark, filter for ssh traffic.
+  <br />
+  <br />
+In Powershell, from VM-Windows gain access to VM-Linux by typing: 
+  <br />
+ssh (your Linux admin username)@(VM-Linux' private IP), hit ENTER.
+  <br />
+Input the password for VM Linux (note that when typing it, the password will not be seen), hit ENTER.
+  <br />
+  <br />
+In Wireshark you will see back and forth SSH traffic between the Windows VM & the Linux VM.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/3ee69d64-2206-4805-a73c-3aab4fbb0529" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/f2ff9ff6-e483-41e0-9fa6-e06567266215" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
