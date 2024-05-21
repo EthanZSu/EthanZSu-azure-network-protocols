@@ -349,7 +349,83 @@ In Powerhell, you see the Windows VM received 4 replies from the Linux VM.
 <br />
 <br />
 <br />
-SKIPPED NSG SECTION & LINUX COMMANDS
+
+NSG SECTION 
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/14ea2194-44cb-4f98-99d7-5b3c5cb09a89" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Wireshark, filter for icmp traffic.
+  <br />
+In Powershell, initiate an endless ping from Windows VM to Linux VM: type "ping (Linux' Private IP) -t" ,then hit ENTER.
+  <br />
+In Wireshark, you will see back and forth ICMP traffic between the Windows VM & the Linux VM.
+  <br />
+In Powershell, you will see the Linux VM's endless replies to Windows Vm's Ping.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/c1cb1798-a4d5-4308-8820-a70452b8f6d9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to Azure: search & select your Linux VM.
+  <br />
+In the left column search bar, search "nsg", then select "Network settings".
+  <br />
+  <br />
+Create an inbound security rule on VM Linux's NSG to block VM Window's incoming Ping:
+  <br />
+1st Scroll down & select: "Create a new port rule", then "inbound port rule".
+  <br />
+2nd, Ensure Source: Any, Select the same settings shown in the screenshot.
+  <br />
+Ensure Priority: a number smaller than all other inbound port rules' numbers. (so this rule is prioritized above all other rules).
+  <br />
+Also name this security rule.
+  <br />
+Finally create it.
+  
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/0e6f7a5c-2baa-4bad-998b-aabdf2ec5d36" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The Network Security Group on VM Linux now blocks VM Windows' endless ping.
+  <br />
+In Wireshark, only VM Windows will be sending ICMP traffic while not receiving a response.
+  <br />
+In Powershell, the requests timed out.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/880f6492-03b3-4113-94f4-601a78de5cb4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Change the inbound security rule on VM Linux's NSG to allow VM Window's incoming Ping:
+  <br />
+Select the inbound rule you just made,
+  <br />
+Scroll down, change action to "Allow", save.
+  <br />
+  <br />
+In Wirehark, you'll see back and forth traffic between the Windows VM & Linux VM.
+  <br />
+In Powershell, you'll see replies from Linux VM.
+  <br />
+  <br />
+To stop the perpetual ping, in Powershell hold down keyboard keys "Ctrl" and "C".
+</p>
+<br />
 
 
 
@@ -435,16 +511,6 @@ In Wireshark, you will see much DNS traffic between the Windows VM & the DNS ser
 In Wireshark, filter for rdp traffic.
   <br />
 In Wireshark, you should see an endless stream of rdp traffic (because the Windows VM is constantly using remote desktop protocol for as long as you are using it).
-<br />
-
-
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
 
 
