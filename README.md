@@ -246,6 +246,9 @@ On the right click "yes" to the network pop-up "do you want... your PC to be dis
 <p>
 If there is any Windows promotional pop-up, exit it.
   <br />
+  <br />
+Open Microsoft Edge web browser.
+  <br />
 Decline all Windows offers to sign in & bring your data (because this project is temporary & requires none of that sign-up).
 
 </p>
@@ -257,8 +260,6 @@ Decline all Windows offers to sign in & bring your data (because this project is
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/48fdecf6-a66c-4371-aa08-832fb3aea4bc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open Microsoft Edge web browser.
-  <br />
 In the top search bar search "wireshark download" & go to the wireshark.org site.
 </p>
 <br />
