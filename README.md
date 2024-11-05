@@ -95,7 +95,9 @@ Public inbound ports must allow selected ports, and allow RDP 3389 (for remote d
 Scroll down & confirm you have the appropriate Windows 10/11 license.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -119,7 +121,9 @@ Finally, Create this 1st VM.
 Note that Azure may take 5 minutes to deploy the VM.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -142,7 +146,9 @@ The image (VM's operating system) will be Ubuntu Server 20.04
 VM architecture x64 will suffice.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -158,7 +164,9 @@ Set up administrator account info for the VM: the username & password.
 Public inbound ports must allow selected ports, and allow SSH 22 (for typing a remote command line to the VM).
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -182,7 +190,10 @@ Finally, Create this 2nd VM.
   <br />
 Note that Azure may take 5 minutes to deploy the VM.
 <p>
-  <br />
+<br />
+<br />
+<br />
+<br />
 
 
 <h3>Step 3: Install Wireshark Onto the Windows 10 VM.</h3>
@@ -201,7 +212,9 @@ Copy the Public IP address on the right side into the Remote Desktop Connection 
 Enter the administrator account credentials for the VM: the username & password.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -211,7 +224,9 @@ Enter the administrator account credentials for the VM: the username & password.
 Click "yes" on the pop-up.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -228,7 +243,9 @@ If the pop-up is still there, simply click "OK".
 You must then repeat the steps from the previous 2 pictures to use Remote Dektop to access your Windows VM. 
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -242,7 +259,9 @@ Then accept.
 On the right click "yes" to the network pop-up "do you want... your PC to be discoverable by other... devices on this network?"
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -258,7 +277,9 @@ Decline all Windows offers to sign in & bring your data (because this project is
 
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -268,7 +289,9 @@ Decline all Windows offers to sign in & bring your data (because this project is
 In the top search bar search "wireshark download" & go to the wireshark.org site.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -282,7 +305,9 @@ Once it's finished downloading, open the file.
 Minimize the window.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -292,7 +317,9 @@ Minimize the window.
 Select "Next", "Noted", keep selecting "Next", then "Install"
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -301,6 +328,9 @@ Select "Next", "Noted", keep selecting "Next", then "Install"
 <p>
 Select "I Agree", "Install", "Next", "Finish", "Next", "Finish".
 </p>
+<br />
+<br />
+<br />
 <br />
 
 
@@ -314,7 +344,9 @@ Exit the web browser windows.
 In the bottom taskbar search "wireshark".
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -324,7 +356,9 @@ In the bottom taskbar search "wireshark".
 Click "Ethernet" & you will see the contant traffic between the Windows VM & the Internet.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -370,7 +404,9 @@ In Wireshark, you will see back and forth ICMP traffic between the Windows VM & 
 In Powershell, you will see the Linux VM's endless replies to Windows Vm's Ping.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -396,7 +432,9 @@ Finally create it.
   
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -410,7 +448,9 @@ In Wireshark, only VM Windows will be sending ICMP traffic while not receiving a
 In Powershell, the requests timed out.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -432,6 +472,9 @@ In Powershell, you'll see replies from Linux VM.
 To stop the perpetual ping, in Powershell hold down keyboard keys "Ctrl" and "C".
 </p>
 <br />
+<br />
+<br />
+<br />
 
 
 <h3>Step 5: Initiate and Observe internet protocol traffic in the virtual machines.</h3>
@@ -452,7 +495,9 @@ Input the password for VM Linux (note that when typing it, the password will not
 In Wireshark you will see back and forth SSH traffic between the Windows VM & the Linux VM.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -474,7 +519,9 @@ In Wireshark, you will see more ssh traffic.
 End the ssh connection. In Powershell, type "exit", hit ENTER.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -489,7 +536,9 @@ Request a new IP address for the Windows VM: in Powershell type "ipconfig /renew
 In Wireshark you will see back and forth DHCP traffic between the Windows VM & the DHCP server.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -507,7 +556,9 @@ In Powershell you will see several of Google's public IP addresses.
 In Wireshark, you will see much DNS traffic between the Windows VM & the DNS server.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
