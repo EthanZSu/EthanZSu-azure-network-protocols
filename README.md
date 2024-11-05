@@ -8,10 +8,6 @@
 This tutorial experiments with Network Security Groups & uses Wireshark to observe network traffic between Azure Virtual Machines (VMs). <br />
 
 
-<h2>???Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
-
 <h2>Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines)
@@ -34,7 +30,10 @@ This tutorial experiments with Network Security Groups & uses Wireshark to obser
 - Step 5: Initiate and Observe internet protocol traffic in the virtual machines.
 
 <h2>Actions and Observations</h2>
+  <br />
+  <br />
 
+<h3>Step 1: Make a Resource Group</h3>  
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/6c31fed9-4ab9-4795-816f-13edd6838d8e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -54,9 +53,12 @@ And pick which geographic region you want the resource group in.
 Then create the resource group.
 </p>
 <br />
+<br />
+<br />
+<br />
 
 
-
+<h3>Step 2: Make a Windows 10 VM & a Linux VM.</h3>
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/8c1adcb6-557f-4cd4-8a9a-786b3b190ebb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -75,7 +77,9 @@ The image (VM's operating system) will be Windows 10 Pro, ver. 22H2
 VM architecture x64 will suffice.
 </p>
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -181,6 +185,7 @@ Note that Azure may take 5 minutes to deploy the VM.
   <br />
 
 
+<h3>Step 3: Install Wireshark Onto the Windows 10 VM.</h3>
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/69629cdd-0cd4-41a3-bee8-35401aae7f1c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -299,7 +304,7 @@ Select "I Agree", "Install", "Next", "Finish", "Next", "Finish".
 <br />
 
 
-
+<h3>Step 4: Conduct a Network Security Group Ping Test Between Both VMs.</h3>
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/e2c49c58-f3a8-4c54-8ffa-39e398584583" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -351,7 +356,7 @@ In Powerhell, you see the Windows VM received 4 replies from the Linux VM.
 <br />
 <br />
 
-NSG SECTION 
+
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/14ea2194-44cb-4f98-99d7-5b3c5cb09a89" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -429,7 +434,7 @@ To stop the perpetual ping, in Powershell hold down keyboard keys "Ctrl" and "C"
 <br />
 
 
-
+<h3>Step 5: Initiate and Observe internet protocol traffic in the virtual machines.</h3>
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/83e6dcc1-f4b1-412f-aae2-39bb1d4a76b9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
