@@ -30,9 +30,9 @@ This tutorial experiments with Network Security Groups & uses Wireshark to obser
 - Step 1: Make a resource group.
 - Step 2: Make a Windows 10 virtual machine & a Linux virtual machine.
 - Step 3: Install Wireshark onto the Windows 10 virtual machine.
-- Step 4: Observe ICMP traffic between both virtual machines.
+- Step 4: Initiate and observe ICMP traffic between both virtual machines.
 - Step 5: Conduct Network Security Group ping tests between both virtual machines.
-- Step 6: Initiate and Observe internet protocol traffic in the virtual machines.
+- Step 6: Initiate and observe internet protocol traffic in the virtual machines.
 <br />
 
 <h2>Actions and Observations</h2>
@@ -353,7 +353,7 @@ ________________________________________________________________________________
 <br />
 
 
-<h3>Step 4: Observe ICMP traffic between both VM's.</h3>
+<h3>Step 4: Initiate and observe ICMP traffic between both VM's.</h3>
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/e2c49c58-f3a8-4c54-8ffa-39e398584583" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -504,7 +504,7 @@ ________________________________________________________________________________
 <br />
 
 
-<h3>Step 6: Initiate and Observe internet protocol traffic in the virtual machines.</h3>
+<h3>Step 6: Initiate and observe internet protocol traffic in the virtual machines.</h3>
 <p>
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/83e6dcc1-f4b1-412f-aae2-39bb1d4a76b9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
