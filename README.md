@@ -412,7 +412,7 @@ In Powershell, you will see the Linux VM's endless replies to Windows Vm's Ping.
 
 
 <p>
-<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/c1cb1798-a4d5-4308-8820-a70452b8f6d9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/c6076e16-d2ac-4f8b-82bb-873a6bc167b3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go to Azure: search & select your Linux VM.
