@@ -17,7 +17,7 @@ This tutorial experiments with Network Security Groups & uses Wireshark to obser
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop
 - Command-Line Tools
-- Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Network Protocols (SSH, DHCP, DNS, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
