@@ -37,7 +37,7 @@ This tutorial experiments with Network Security Groups & uses Wireshark to obser
 
 <h3>Step 1: Make a Resource Group</h3>  
 <p>
-<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/6c31fed9-4ab9-4795-816f-13edd6838d8e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/8ed908ca-150c-4835-b7c0-57798268aeb9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 First, a new resource group must be made where the virtual machines will be placed  in.
