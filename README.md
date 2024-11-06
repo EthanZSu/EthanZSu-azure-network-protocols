@@ -491,6 +491,8 @@ In Powershell, from VM-Windows gain access to VM-Linux by typing:
   <br />
 ssh (your Linux admin username)@(VM-Linux' private IP), hit ENTER.
   <br />
+If asked "Are you sure you want to continue", input: yes .
+  <br />
 Input the password for VM Linux (note that when typing it, the password will not be seen), hit ENTER.
   <br />
   <br />
