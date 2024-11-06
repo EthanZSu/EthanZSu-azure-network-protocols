@@ -355,7 +355,7 @@ In the bottom taskbar search "wireshark".
 <img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/e02d8fc5-641e-45f5-80d1-85c31af3a71b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Click "Ethernet" & you will see the contant traffic between the Windows VM & the Internet.
+Click "Ethernet" & you will see constant traffic between the Windows VM & the Internet.
 </p>
 <br />
 <br />
