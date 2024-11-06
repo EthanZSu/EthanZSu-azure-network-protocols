@@ -62,7 +62,7 @@ Then create the resource group.
 
 <h3>Step 2: Make a Windows 10 VM & a Linux VM.</h3>
 <p>
-<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/8c1adcb6-557f-4cd4-8a9a-786b3b190ebb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/3860113c-a265-4154-94c0-47d7bd4baf55" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In the top search bar search: virtual machines, then click "create", then "Azure Virtual Machine".
