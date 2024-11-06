@@ -54,6 +54,7 @@ And pick which geographic region you want the resource group in.
   <br />
 Then create the resource group.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -78,6 +79,7 @@ The image (VM's operating system) will be Windows 10 Pro, ver. 22H2
   <br />
 VM architecture x64 will suffice.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -96,6 +98,7 @@ Public inbound ports must allow selected ports, and allow RDP 3389 (for remote d
   <br />
 Scroll down & confirm you have the appropriate Windows 10/11 license.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -122,6 +125,7 @@ Finally, Create this 1st VM.
   <br />
 Note that Azure may take 5 minutes to deploy the VM.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -147,6 +151,7 @@ The image (VM's operating system) will be Ubuntu Server 20.04
   <br />
 VM architecture x64 will suffice.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -165,6 +170,7 @@ Set up administrator account info for the VM: the username & password.
   <br />
 Public inbound ports must allow selected ports, and allow SSH 22 (for typing a remote command line to the VM).
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -192,6 +198,7 @@ Finally, Create this 2nd VM.
   <br />
 Note that Azure may take 5 minutes to deploy the VM.
 <p>
+  ____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -213,6 +220,7 @@ Copy the Public IP address on the right side into the Remote Desktop Connection 
   <br />
 Enter the administrator account credentials for the VM: the username & password.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -225,6 +233,7 @@ Enter the administrator account credentials for the VM: the username & password.
 <p>
 Click "yes" on the pop-up.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -244,6 +253,7 @@ If the pop-up is still there, simply click "OK".
   <br />
 You must then repeat the steps from the previous 2 pictures to use Remote Dektop to access your Windows VM. 
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -260,6 +270,7 @@ Then accept.
 <br />
 On the right click "yes" to the network pop-up "do you want... your PC to be discoverable by other... devices on this network?"
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -276,8 +287,8 @@ If there is any Windows promotional pop-up, exit it.
 Open Microsoft Edge web browser.
   <br />
 Decline all Windows offers to sign in & bring your data (because this project is temporary & requires none of that sign-up).
-
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -290,6 +301,7 @@ Decline all Windows offers to sign in & bring your data (because this project is
 <p>
 In the top search bar search "wireshark download" & go to the wireshark.org site.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -306,6 +318,7 @@ Once it's finished downloading, open the file.
   <br /> 
 Minimize the window.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -318,6 +331,7 @@ Minimize the window.
 <p>
 Select "Next", "Noted", keep selecting "Next", then "Install"
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -330,6 +344,7 @@ Select "Next", "Noted", keep selecting "Next", then "Install"
 <p>
 Select "I Agree", "Install", "Next", "Finish", "Next", "Finish".
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -345,6 +360,7 @@ Exit the web browser windows.
   <br />
 In the bottom taskbar search "wireshark".
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -357,6 +373,7 @@ In the bottom taskbar search "wireshark".
 <p>
 Click "Ethernet" & you will see constant traffic between the Windows VM & the Internet.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -387,6 +404,7 @@ In Wireshark, you see the traffic between both VM's as the Windows VM pings, & t
   <br />
 In Powerhell, you see the Windows VM received 4 replies from the Linux VM.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -405,6 +423,7 @@ In Wireshark, you will see back and forth ICMP traffic between the Windows VM & 
   <br />
 In Powershell, you will see the Linux VM's endless replies to Windows Vm's Ping.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -433,6 +452,7 @@ Also name this security rule.
 Finally create it.
   
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -449,6 +469,7 @@ In Wireshark, only VM Windows will be sending ICMP traffic while not receiving a
   <br />
 In Powershell, the requests timed out.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -473,6 +494,7 @@ In Powershell, you'll see replies from Linux VM.
   <br />
 To stop the perpetual ping, in Powershell hold down keyboard keys "Ctrl" and "C".
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -498,6 +520,7 @@ Input the password for VM Linux (note that when typing it, the password will not
   <br />
 In Wireshark you will see back and forth SSH traffic between the Windows VM & the Linux VM.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -522,6 +545,7 @@ In Wireshark, you will see more ssh traffic.
   <br />
 End the ssh connection. In Powershell, type "exit", hit ENTER.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -539,6 +563,7 @@ Request a new IP address for the Windows VM: in Powershell type "ipconfig /renew
   <br />
 In Wireshark you will see back and forth DHCP traffic between the Windows VM & the DHCP server.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
@@ -559,6 +584,7 @@ In Powershell you will see several of Google's public IP addresses.
   <br />
 In Wireshark, you will see much DNS traffic between the Windows VM & the DNS server.
 </p>
+____________________________________________________________________________________________________________________________________
 <br />
 <br />
 <br />
