@@ -207,7 +207,7 @@ In your Windows computer bottom search bar type: Remote Desktop Connection.
   <br />
 In the top center search bar search: Virtual Machines.
   <br />
-Select the Windows VM.
+Select the 1st Windows VM made.
   <br />
 Copy the Public IP address on the right side into the Remote Desktop Connection & Connect.
   <br />
