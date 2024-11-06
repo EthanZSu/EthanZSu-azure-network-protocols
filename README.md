@@ -422,7 +422,7 @@ In the left column search bar, search "nsg", then select "Network settings".
   <br />
 Create an inbound security rule on VM Linux's NSG to block VM Window's incoming Ping:
   <br />
-1st Scroll down & select: "Create a new port rule", then "inbound port rule".
+1st Scroll down & select: "Create port rule", then "inbound port rule".
   <br />
 2nd, Ensure Source: Any, Select the same settings shown in the screenshot.
   <br />
