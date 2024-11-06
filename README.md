@@ -456,7 +456,7 @@ In Powershell, the requests timed out.
 
 
 <p>
-<img src="https://github.com/EthanZSu/EthanZSu-azure-network-protocols/assets/168872181/880f6492-03b3-4113-94f4-601a78de5cb4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/440ce6de-a59c-42bf-8074-e7c7ba87eebd" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Change the inbound security rule on VM Linux's NSG to allow VM Window's incoming Ping:
