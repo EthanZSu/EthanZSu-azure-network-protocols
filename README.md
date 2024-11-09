@@ -420,7 +420,7 @@ ________________________________________________________________________________
 <p>
 In Wireshark, filter for icmp traffic.
   <br />
-In Powershell, initiate an endless ping from Windows VM to Linux VM: type "ping (Linux' Private IP) -t" ,then hit ENTER.
+In Powershell, initiate a perpetual ping from Windows VM to Linux VM: type "ping (Linux' Private IP) -t" ,then hit ENTER.
   <br />
 In Wireshark, you will see back and forth ICMP traffic between the Windows VM & the Linux VM.
   <br />
@@ -441,6 +441,8 @@ Go to Azure: search & select your Linux VM.
   <br />
 In the left column search bar, search "nsg", then select "Network settings".
   <br />
+  <br />
+Now you will configure the firewall (NSG):
   <br />
 Create an inbound security rule on VM Linux's NSG to block VM Window's incoming Ping:
   <br />
